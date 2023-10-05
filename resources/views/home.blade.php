@@ -1,0 +1,10 @@
+@extends('layouts.global')
+@section('content')
+@include('components.navbar')
+@include('components.about')
+@include('components.produk')
+@include('components.produk2')
+@include('components.produk3')
+@include('components.voucher')
+@include('components.footer')
+
