@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Tas;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
+
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard');
+})->name('admin.dashboard');
+
+
+Route::get('/admin/data_product', function () {
+    return view('admin.data_product', [
+    "tas" => Tas::all()
+    ]);
+    })->name('admin.data_product');
