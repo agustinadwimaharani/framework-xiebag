@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        kategori::factory(15)->create();
+        kategori::factory(3)->create();
         tas::factory(15)->create();
     }
 }

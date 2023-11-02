@@ -9,7 +9,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
         <div class="w-6 flex justify-end">
-            <a href=""
+            <a href="{{ route('login') }}"
                 class="group relative bg-blue-200 px-4 py-3 w-36 rounded-lg font-bold flex justify-center gap-4 hover:scale-105 group/expand-hover:px-10 group/expand-hover:py-9 hover:bg-blue-400 transition ease-in rounded-xl">
                 <p class="invisible">Login</p>
                 <p class="absolute text-white group-hover:-translate-x-[40%] transition ease-out">Login</p>

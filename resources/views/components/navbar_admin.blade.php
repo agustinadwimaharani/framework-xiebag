@@ -13,9 +13,7 @@
             <div class="w-12 h-12 rounded-full overflow-hidden">
                 <img src="{{ 'https://avatars.githubusercontent.com/agustinadwimaharani' }}" alt="" class="object-cover">
             </div>
-            <div>
-                <p>{{ 'Tina' }}</p>
-            </div>
+
             <div class="w-6 h-6">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
                     <path

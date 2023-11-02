@@ -1,4 +1,4 @@
-<footer class="bg-slate-300 py-8 mt-10 top-7 `">
+<footer class="bg-slate-300 py-8  `">
     <div class="container mx-auto text-center text-gray-700">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- Contact Section -->
